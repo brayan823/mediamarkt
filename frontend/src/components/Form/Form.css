@@ -1,0 +1,29 @@
+.title_container {
+  display: flex;
+  justify-content: center;
+}
+
+.title_text {
+  font-weight: 600;
+  font-size: 28px;
+  line-height: 32px;
+}
+
+.form_container {
+  display: block;
+  margin: 0 auto;
+  width: max-content;
+  margin-top: 32px;
+  margin-bottom: 32px;
+}
+
+.results_container,
+.error_container {
+  margin-top: 32px;
+}
+
+.error_container,
+.input_row {
+  text-align: center;
+  text-align: -webkit-center;
+}
